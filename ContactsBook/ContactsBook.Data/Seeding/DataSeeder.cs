@@ -7,6 +7,7 @@ public static class DataSeeder
     {
         return [
             new Contact {
+                Id = Guid.Parse("979eea45-d033-4434-aaa7-e2d90abfe2f2"),
                 PhoneNumber = "1-252-964-3425",
                 FirstName = "Orlando",
                 LastName = "Mejia",
@@ -18,6 +19,7 @@ public static class DataSeeder
                 Notes = ""
             },
             new Contact {
+                Id = Guid.Parse("06491d3e-6456-4922-9985-44a6ab604ede"),
                 PhoneNumber = "1-861-112-1343",
                 FirstName = "Harding",
                 LastName = "Blackburn",
@@ -29,6 +31,7 @@ public static class DataSeeder
                 Notes = "blandit congue. In scelerisque scelerisque"
             },
             new Contact {
+                Id = Guid.Parse("43f5b51d-1929-441b-8ecf-eb6e9d0196ec"),
                 PhoneNumber = "1-218-577-7225",
                 FirstName = "Naomi",
                 LastName = "Salazar",
@@ -40,6 +43,7 @@ public static class DataSeeder
                 Notes = "nec, diam. Duis"
             },
             new Contact {
+                Id = Guid.Parse("936f7e86-efc8-4f8f-9a96-393d7bb52ef8"),
                 PhoneNumber = "1-344-461-2974",
                 FirstName = "Reese",
                 LastName = "Whitehead",
@@ -51,6 +55,7 @@ public static class DataSeeder
                 Notes = "Suspendisse sed"
             },
             new Contact {
+                Id = Guid.Parse("5e5d1380-a9d8-4639-8590-852b5c31ff44"),
                 PhoneNumber = "1-836-468-7621",
                 FirstName = "Vivien",
                 LastName = "Porter",
@@ -62,6 +67,7 @@ public static class DataSeeder
                 Notes = "felis, adipiscing fringilla, porttitor vulputate,"
             },
             new Contact {
+                Id = Guid.Parse("a3d7d626-4566-4f57-8f26-58d41139bd35"),
                 PhoneNumber = "1-664-751-0654",
                 FirstName = "Ishmael",
                 LastName = "Baker",
@@ -73,6 +79,7 @@ public static class DataSeeder
                 Notes = "nisl elementum purus, accumsan interdum"
             },
             new Contact {
+                Id = Guid.Parse("ae158a3e-417b-4597-ab3a-62e82e1680a6"),
                 PhoneNumber = "1-114-915-8993",
                 FirstName = "Jackson",
                 LastName = "Stark",
@@ -84,6 +91,7 @@ public static class DataSeeder
                 Notes = "tellus lorem eu metus. In"
             },
             new Contact {
+                Id = Guid.Parse("19926d6d-470f-42e9-a1e4-83d53bdbef1d"),
                 PhoneNumber = "1-875-295-6961",
                 FirstName = "Callum",
                 LastName = "Crosby",
@@ -95,6 +103,7 @@ public static class DataSeeder
                 Notes = "nunc interdum feugiat. Sed"
             },
             new Contact {
+                Id = Guid.Parse("52ccf000-c1e7-425c-b8d9-7e99bd5e88b1"),
                 PhoneNumber = "1-138-123-6466",
                 FirstName = "Willa",
                 LastName = "Burnett",
@@ -106,6 +115,7 @@ public static class DataSeeder
                 Notes = "amet luctus vulputate, nisi sem semper"
             },
             new Contact {
+                Id = Guid.Parse("9f8ae1c3-4ee1-47cb-b185-c4395d198c5c"),
                 PhoneNumber = "1-661-839-5511",
                 FirstName = "Karen",
                 LastName = "Cline",
@@ -117,6 +127,7 @@ public static class DataSeeder
                 Notes = "eu tellus. Phasellus elit pede,"
             },
             new Contact {
+                Id = Guid.Parse("d5e80fd9-0eef-4fb1-9830-7fcdc73a3af7"),
                 PhoneNumber = "1-485-147-2331",
                 FirstName = "Vance",
                 LastName = "Warren",
@@ -128,6 +139,7 @@ public static class DataSeeder
                 Notes = "Etiam vestibulum"
             },
             new Contact {
+                Id = Guid.Parse("43bc4204-42f0-4c45-8364-02d0b380b304"),
                 PhoneNumber = "1-896-354-2181",
                 FirstName = "Cally",
                 LastName = "Tate",
@@ -139,6 +151,7 @@ public static class DataSeeder
                 Notes = "eget ipsum."
             },
             new Contact {
+                Id = Guid.Parse("39e23901-0744-48f4-9334-6a808b57479e"),
                 PhoneNumber = "1-528-181-3184",
                 FirstName = "Alvin",
                 LastName = "Alexander",
@@ -150,6 +163,7 @@ public static class DataSeeder
                 Notes = "commodo tincidunt nibh. Phasellus"
             },
             new Contact {
+                Id = Guid.Parse("1ee9fe5b-dd6d-426c-bf78-36056ea96ab9"),
                 PhoneNumber = "1-921-473-6738",
                 FirstName = "Finn",
                 LastName = "Ballard",
@@ -161,6 +175,7 @@ public static class DataSeeder
                 Notes = "Pellentesque habitant morbi tristique senectus"
             },
             new Contact {
+                Id = Guid.Parse("415bf853-f275-42d0-a2d6-32edc65e8c75"),
                 PhoneNumber = "1-536-884-1841",
                 FirstName = "Stephanie",
                 LastName = "Mcmahon",
@@ -172,6 +187,7 @@ public static class DataSeeder
                 Notes = ""
             },
             new Contact {
+                Id = Guid.Parse("c8996b7f-c405-4d91-b3c6-71ac14d5c1bd"),
                 PhoneNumber = "1-617-273-6498",
                 FirstName = "Callum",
                 LastName = "Mcdowell",
@@ -183,6 +199,7 @@ public static class DataSeeder
                 Notes = "non, bibendum"
             },
             new Contact {
+                Id = Guid.Parse("ef96116a-82a0-495c-a145-82069dc9a184"),
                 PhoneNumber = "1-134-897-6457",
                 FirstName = "Yen",
                 LastName = "Black",
@@ -194,6 +211,7 @@ public static class DataSeeder
                 Notes = "mauris"
             },
             new Contact {
+                Id = Guid.Parse("7e8dd3bc-b7c6-4c2b-b7b1-1dcffe1250de"),
                 PhoneNumber = "1-895-265-6384",
                 FirstName = "Erich",
                 LastName = "Mcmillan",
@@ -205,6 +223,7 @@ public static class DataSeeder
                 Notes = "Pellentesque"
             },
             new Contact {
+                Id = Guid.Parse("1e59776a-3bb5-4331-b9c3-4c39651bf652"),
                 PhoneNumber = "1-917-591-8473",
                 FirstName = "Myles",
                 LastName = "Mercer",
@@ -216,6 +235,7 @@ public static class DataSeeder
                 Notes = "Vestibulum accumsan"
             },
             new Contact {
+                Id = Guid.Parse("ecc488bd-0c78-49ec-8576-e32ac6684c1c"),
                 PhoneNumber = "1-868-330-7792",
                 FirstName = "Hyatt",
                 LastName = "Walls",
@@ -225,886 +245,6 @@ public static class DataSeeder
                 Company = "Non Consulting",
                 Position = "Cum sociis",
                 Notes = "augue ac ipsum."
-            },
-            new Contact {
-                PhoneNumber = "1-125-556-3267",
-                FirstName = "Julian",
-                LastName = "Rollins",
-                Email = "nulla@aol.org",
-                DateOfBirth = DateOnly.Parse("23.01.99"),
-                Address = "Ap #329-8796 In St.",
-                Company = "Quisque Tincidunt Corp.",
-                Position = "magna. Duis",
-                Notes = "scelerisque sed, sapien."
-            },
-            new Contact {
-                PhoneNumber = "1-485-851-2569",
-                FirstName = "Dana",
-                LastName = "Hardin",
-                Email = "donec.elementum@hotmail.org",
-                DateOfBirth = DateOnly.Parse("18.04.01"),
-                Address = "Ap #293-5423 Egestas Ave",
-                Company = "Egestas Associates",
-                Position = "a sollicitudin",
-                Notes = "felis purus ac tellus."
-            },
-            new Contact {
-                PhoneNumber = "1-598-411-7769",
-                FirstName = "Heather",
-                LastName = "Sanford",
-                Email = "ante.iaculis@protonmail.org",
-                DateOfBirth = DateOnly.Parse("27.07.98"),
-                Address = "101-4001 Ligula. Rd.",
-                Company = "Etiam Ltd",
-                Position = "ultrices. Vivamus",
-                Notes = "pede."
-            },
-            new Contact {
-                PhoneNumber = "1-958-535-9173",
-                FirstName = "Charity",
-                LastName = "Rodgers",
-                Email = "dis@icloud.edu",
-                DateOfBirth = DateOnly.Parse("11.03.01"),
-                Address = "101-4094 Nisi Avenue",
-                Company = "Lacus Aliquam Rutrum LLP",
-                Position = "turpis egestas.",
-                Notes = "tristique senectus et netus et malesuada"
-            },
-            new Contact {
-                PhoneNumber = "1-282-695-5646",
-                FirstName = "Valentine",
-                LastName = "Summers",
-                Email = "sem@outlook.com",
-                DateOfBirth = DateOnly.Parse("27.01.00"),
-                Address = "Ap #357-2698 Eu, Street",
-                Company = "Sit Amet Luctus Industries",
-                Position = "aliquet magna",
-                Notes = "ornare tortor at risus."
-            },
-            new Contact {
-                PhoneNumber = "1-802-574-6581",
-                FirstName = "Oliver",
-                LastName = "Williamson",
-                Email = "luctus.felis.purus@outlook.net",
-                DateOfBirth = DateOnly.Parse("06.06.98"),
-                Address = "Ap #705-3035 Eget Rd.",
-                Company = "Sed Inc.",
-                Position = "rutrum non,",
-                Notes = "pretium et,"
-            },
-            new Contact {
-                PhoneNumber = "1-543-211-7445",
-                FirstName = "Kelly",
-                LastName = "Sandoval",
-                Email = "dignissim.lacus@icloud.net",
-                DateOfBirth = DateOnly.Parse("07.08.01"),
-                Address = "5623 Nascetur Rd.",
-                Company = "Ante LLC",
-                Position = "enim, condimentum",
-                Notes = "sapien, gravida"
-            },
-            new Contact {
-                PhoneNumber = "1-964-689-7517",
-                FirstName = "Kiona",
-                LastName = "Sears",
-                Email = "elit.erat.vitae@hotmail.couk",
-                DateOfBirth = DateOnly.Parse("07.01.99"),
-                Address = "Ap #535-9611 Commodo Av.",
-                Company = "Diam Nunc Corp.",
-                Position = "a, facilisis",
-                Notes = "bibendum. Donec felis orci,"
-            },
-            new Contact {
-                PhoneNumber = "1-466-558-7353",
-                FirstName = "Hanae",
-                LastName = "Shepard",
-                Email = "metus.eu@outlook.ca",
-                DateOfBirth = DateOnly.Parse("09.11.00"),
-                Address = "188-1554 Rhoncus. Road",
-                Company = "Sit Amet Dapibus Foundation",
-                Position = "Nullam suscipit,",
-                Notes = "urna. Nunc"
-            },
-            new Contact {
-                PhoneNumber = "1-257-639-3038",
-                FirstName = "Upton",
-                LastName = "Holland",
-                Email = "elit.elit.fermentum@google.edu",
-                DateOfBirth = DateOnly.Parse("12.05.98"),
-                Address = "Ap #196-9319 Enim, Rd.",
-                Company = "Dictum Eu Foundation",
-                Position = "id, mollis",
-                Notes = "eu, placerat eget, venenatis"
-            },
-            new Contact {
-                PhoneNumber = "1-260-133-4354",
-                FirstName = "Zelda",
-                LastName = "Hines",
-                Email = "lobortis.class@outlook.net",
-                DateOfBirth = DateOnly.Parse("02.08.00"),
-                Address = "Ap #149-9469 Vitae St.",
-                Company = "At Fringilla Industries",
-                Position = "tellus. Aenean",
-                Notes = "turpis"
-            },
-            new Contact {
-                PhoneNumber = "1-316-556-3943",
-                FirstName = "Ignatius",
-                LastName = "Hill",
-                Email = "mauris@google.couk",
-                DateOfBirth = DateOnly.Parse("22.11.00"),
-                Address = "Ap #974-9833 Elit, Av.",
-                Company = "Pede Et Limited",
-                Position = "hendrerit. Donec",
-                Notes = "arcu. Vestibulum ante ipsum primis"
-            },
-            new Contact {
-                PhoneNumber = "1-231-563-3147",
-                FirstName = "Ignatius",
-                LastName = "Sosa",
-                Email = "hendrerit.consectetuer@aol.org",
-                DateOfBirth = DateOnly.Parse("26.10.99"),
-                Address = "P.O. Box 141, 5079 A Rd.",
-                Company = "Id Ltd",
-                Position = "nec, eleifend",
-                Notes = "vulputate, nisi sem semper erat,"
-            },
-            new Contact {
-                PhoneNumber = "1-472-663-4689",
-                FirstName = "Beatrice",
-                LastName = "Head",
-                Email = "magna.et@aol.ca",
-                DateOfBirth = DateOnly.Parse("03.02.98"),
-                Address = "Ap #652-3163 Iaculis Av.",
-                Company = "Luctus Aliquet Odio Inc.",
-                Position = "lobortis mauris.",
-                Notes = "quis"
-            },
-            new Contact {
-                PhoneNumber = "1-658-662-9515",
-                FirstName = "Brennan",
-                LastName = "Franks",
-                Email = "magna.nam.ligula@hotmail.ca",
-                DateOfBirth = DateOnly.Parse("05.03.99"),
-                Address = "1827 Et, Road",
-                Company = "Gravida Foundation",
-                Position = "tortor nibh",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-311-797-5585",
-                FirstName = "Adele",
-                LastName = "Henderson",
-                Email = "quis@protonmail.com",
-                DateOfBirth = DateOnly.Parse("18.01.01"),
-                Address = "1442 Amet, Rd.",
-                Company = "Montes Nascetur Foundation",
-                Position = "nibh. Phasellus",
-                Notes = "rutrum lorem ac risus."
-            },
-            new Contact {
-                PhoneNumber = "1-856-643-7574",
-                FirstName = "Lamar",
-                LastName = "Pennington",
-                Email = "ut.aliquam@icloud.edu",
-                DateOfBirth = DateOnly.Parse("22.02.99"),
-                Address = "Ap #354-2410 Aliquam Rd.",
-                Company = "Montes Incorporated",
-                Position = "non massa",
-                Notes = "blandit. Nam nulla magna, malesuada vel,"
-            },
-            new Contact {
-                PhoneNumber = "1-548-886-6329",
-                FirstName = "Alfreda",
-                LastName = "Dickerson",
-                Email = "tellus.sem@outlook.ca",
-                DateOfBirth = DateOnly.Parse("05.03.01"),
-                Address = "Ap #152-6601 Volutpat Ave",
-                Company = "Pede Praesent Incorporated",
-                Position = "lectus convallis",
-                Notes = "Suspendisse"
-            },
-            new Contact {
-                PhoneNumber = "1-847-376-1263",
-                FirstName = "Quin",
-                LastName = "Ayers",
-                Email = "nisi@icloud.couk",
-                DateOfBirth = DateOnly.Parse("26.03.99"),
-                Address = "Ap #330-3517 Velit St.",
-                Company = "Ante Limited",
-                Position = "est ac",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-225-653-7371",
-                FirstName = "Pearl",
-                LastName = "Harrington",
-                Email = "tortor.integer@google.ca",
-                DateOfBirth = DateOnly.Parse("08.01.98"),
-                Address = "5738 Nisi St.",
-                Company = "Rutrum Non Consulting",
-                Position = "auctor ullamcorper,",
-                Notes = "mattis ornare, lectus ante"
-            },
-            new Contact {
-                PhoneNumber = "1-648-772-8552",
-                FirstName = "Theodore",
-                LastName = "Dyer",
-                Email = "dolor@google.ca",
-                DateOfBirth = DateOnly.Parse("09.12.98"),
-                Address = "Ap #790-5955 Et, Avenue",
-                Company = "Auctor Non Feugiat Associates",
-                Position = "nisi dictum",
-                Notes = "mattis. Integer eu"
-            },
-            new Contact {
-                PhoneNumber = "1-661-789-6278",
-                FirstName = "Kirk",
-                LastName = "Oneal",
-                Email = "nunc.quisque.ornare@outlook.net",
-                DateOfBirth = DateOnly.Parse("09.08.98"),
-                Address = "Ap #825-2760 Ipsum Road",
-                Company = "Nam Tempor Ltd",
-                Position = "fringilla. Donec",
-                Notes = "ipsum primis"
-            },
-            new Contact {
-                PhoneNumber = "1-504-225-6762",
-                FirstName = "Slade",
-                LastName = "Brown",
-                Email = "aliquam@icloud.edu",
-                DateOfBirth = DateOnly.Parse("27.06.99"),
-                Address = "1931 Suspendisse Avenue",
-                Company = "Lorem Eget Institute",
-                Position = "euismod est",
-                Notes = "odio. Aliquam vulputate ullamcorper"
-            },
-            new Contact {
-                PhoneNumber = "1-557-710-6782",
-                FirstName = "Rana",
-                LastName = "O'donnell",
-                Email = "odio.auctor.vitae@hotmail.com",
-                DateOfBirth = DateOnly.Parse("31.01.99"),
-                Address = "635-7799 Ad St.",
-                Company = "Nunc Est Inc.",
-                Position = "Ut semper",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-447-425-7518",
-                FirstName = "Madonna",
-                LastName = "Wise",
-                Email = "eleifend.nec.malesuada@protonmail.edu",
-                DateOfBirth = DateOnly.Parse("01.07.98"),
-                Address = "9397 Blandit Rd.",
-                Company = "Integer In Corporation",
-                Position = "tristique neque",
-                Notes = "vel, mauris. Integer sem elit, pharetra"
-            },
-            new Contact {
-                PhoneNumber = "1-527-433-8603",
-                FirstName = "Colorado",
-                LastName = "Fletcher",
-                Email = "lobortis@aol.ca",
-                DateOfBirth = DateOnly.Parse("07.11.98"),
-                Address = "Ap #710-210 Orci St.",
-                Company = "Ullamcorper Eu Euismod PC",
-                Position = "dui lectus",
-                Notes = "commodo auctor velit."
-            },
-            new Contact {
-                PhoneNumber = "1-364-401-4856",
-                FirstName = "Lila",
-                LastName = "Mckay",
-                Email = "lorem.auctor.quis@hotmail.com",
-                DateOfBirth = DateOnly.Parse("13.01.01"),
-                Address = "856-2040 Auctor St.",
-                Company = "Elit Erat Corporation",
-                Position = "elit, a",
-                Notes = "lacus. Mauris non dui nec"
-            },
-            new Contact {
-                PhoneNumber = "1-243-553-4564",
-                FirstName = "MacKensie",
-                LastName = "Morgan",
-                Email = "metus.facilisis@yahoo.net",
-                DateOfBirth = DateOnly.Parse("23.05.98"),
-                Address = "Ap #960-4805 Cras Street",
-                Company = "Arcu Morbi Ltd",
-                Position = "tincidunt. Donec",
-                Notes = "vel pede blandit congue. In"
-            },
-            new Contact {
-                PhoneNumber = "1-365-563-3614",
-                FirstName = "Virginia",
-                LastName = "Howell",
-                Email = "interdum.feugiat.sed@aol.ca",
-                DateOfBirth = DateOnly.Parse("04.08.99"),
-                Address = "Ap #501-6838 Magna St.",
-                Company = "Velit Eu Foundation",
-                Position = "sed pede",
-                Notes = "penatibus et magnis"
-            },
-            new Contact {
-                PhoneNumber = "1-863-344-8898",
-                FirstName = "Kaitlin",
-                LastName = "Savage",
-                Email = "fusce.mi@google.com",
-                DateOfBirth = DateOnly.Parse("02.06.98"),
-                Address = "Ap #429-9972 Vitae, Av.",
-                Company = "Hendrerit Id Industries",
-                Position = "auctor vitae,",
-                Notes = "non ante bibendum"
-            },
-            new Contact {
-                PhoneNumber = "1-871-509-4241",
-                FirstName = "Baker",
-                LastName = "Langley",
-                Email = "accumsan.convallis@hotmail.ca",
-                DateOfBirth = DateOnly.Parse("26.02.01"),
-                Address = "P.O. Box 319, 6940 Scelerisque Avenue",
-                Company = "Nullam Ut Nisi Incorporated",
-                Position = "Donec non",
-                Notes = "Proin nisl sem, consequat"
-            },
-            new Contact {
-                PhoneNumber = "1-226-536-6673",
-                FirstName = "Hedda",
-                LastName = "Grimes",
-                Email = "donec.tempor.est@hotmail.net",
-                DateOfBirth = DateOnly.Parse("19.08.99"),
-                Address = "3625 Hendrerit Avenue",
-                Company = "Donec Elementum Foundation",
-                Position = "eleifend non,",
-                Notes = "montes, nascetur ridiculus mus. Donec"
-            },
-            new Contact {
-                PhoneNumber = "1-934-715-1510",
-                FirstName = "Tyler",
-                LastName = "Brooks",
-                Email = "odio.nam@protonmail.org",
-                DateOfBirth = DateOnly.Parse("22.03.00"),
-                Address = "Ap #285-6495 Vitae St.",
-                Company = "Amet Consectetuer Inc.",
-                Position = "lobortis risus.",
-                Notes = "aliquet libero. Integer in"
-            },
-            new Contact {
-                PhoneNumber = "1-867-828-8243",
-                FirstName = "Nerea",
-                LastName = "Delacruz",
-                Email = "quis.pede.suspendisse@outlook.edu",
-                DateOfBirth = DateOnly.Parse("04.05.00"),
-                Address = "Ap #319-2083 Et Rd.",
-                Company = "Euismod Enim Foundation",
-                Position = "libero nec",
-                Notes = "nunc. In at pede."
-            },
-            new Contact {
-                PhoneNumber = "1-472-777-8702",
-                FirstName = "Miranda",
-                LastName = "Benton",
-                Email = "porttitor.eros@outlook.ca",
-                DateOfBirth = DateOnly.Parse("10.01.99"),
-                Address = "228-429 Sagittis. Rd.",
-                Company = "Neque Vitae Corp.",
-                Position = "feugiat placerat",
-                Notes = "aliquet"
-            },
-            new Contact {
-                PhoneNumber = "1-264-844-5082",
-                FirstName = "Kasper",
-                LastName = "Pratt",
-                Email = "vitae.sodales@hotmail.net",
-                DateOfBirth = DateOnly.Parse("07.06.98"),
-                Address = "7855 Non Road",
-                Company = "In Sodales PC",
-                Position = "ac mattis",
-                Notes = "nisi"
-            },
-            new Contact {
-                PhoneNumber = "1-473-873-4398",
-                FirstName = "Tanner",
-                LastName = "Berger",
-                Email = "felis.eget.varius@icloud.net",
-                DateOfBirth = DateOnly.Parse("01.05.99"),
-                Address = "Ap #446-827 Cras Rd.",
-                Company = "Rutrum Lorem Incorporated",
-                Position = "tempor augue",
-                Notes = "Phasellus vitae mauris"
-            },
-            new Contact {
-                PhoneNumber = "1-954-421-5296",
-                FirstName = "Ignatius",
-                LastName = "Harris",
-                Email = "enim.condimentum.eget@google.org",
-                DateOfBirth = DateOnly.Parse("16.07.98"),
-                Address = "Ap #595-8837 Gravida Avenue",
-                Company = "Risus At LLP",
-                Position = "Cras sed",
-                Notes = "vitae, sodales at, velit. Pellentesque"
-            },
-            new Contact {
-                PhoneNumber = "1-737-493-6146",
-                FirstName = "Claudia",
-                LastName = "Chaney",
-                Email = "ornare@hotmail.org",
-                DateOfBirth = DateOnly.Parse("30.12.99"),
-                Address = "6267 Ut, Road",
-                Company = "Ac Mattis Velit Inc.",
-                Position = "Sed eu",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-525-725-4242",
-                FirstName = "Molly",
-                LastName = "Wilkerson",
-                Email = "sociosqu.ad@outlook.couk",
-                DateOfBirth = DateOnly.Parse("11.10.01"),
-                Address = "479-6007 Blandit Rd.",
-                Company = "Etiam Ltd",
-                Position = "eu, euismod",
-                Notes = "eros turpis non"
-            },
-            new Contact {
-                PhoneNumber = "1-617-168-3125",
-                FirstName = "Robert",
-                LastName = "Giles",
-                Email = "iaculis.enim@hotmail.net",
-                DateOfBirth = DateOnly.Parse("23.06.01"),
-                Address = "P.O. Box 331, 3300 Amet St.",
-                Company = "Sodales At LLP",
-                Position = "urna et",
-                Notes = "Nunc ac sem ut dolor"
-            },
-            new Contact {
-                PhoneNumber = "1-547-531-9021",
-                FirstName = "Jenna",
-                LastName = "Finley",
-                Email = "elit.aliquam@yahoo.com",
-                DateOfBirth = DateOnly.Parse("18.04.99"),
-                Address = "303-2390 Aliquam Rd.",
-                Company = "Pellentesque Tellus LLP",
-                Position = "non enim",
-                Notes = "eleifend egestas. Sed pharetra,"
-            },
-            new Contact {
-                PhoneNumber = "1-487-248-8415",
-                FirstName = "Charissa",
-                LastName = "Owens",
-                Email = "suscipit@yahoo.net",
-                DateOfBirth = DateOnly.Parse("16.05.01"),
-                Address = "563 Amet, St.",
-                Company = "Fermentum Metus Aenean Institute",
-                Position = "consectetuer, cursus",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-667-776-1047",
-                FirstName = "Zeus",
-                LastName = "Grimes",
-                Email = "eget@yahoo.net",
-                DateOfBirth = DateOnly.Parse("30.07.99"),
-                Address = "858-7028 Pharetra Rd.",
-                Company = "Sed Inc.",
-                Position = "eu nibh",
-                Notes = "sem. Pellentesque ut ipsum"
-            },
-            new Contact {
-                PhoneNumber = "1-716-781-1578",
-                FirstName = "Orlando",
-                LastName = "Richards",
-                Email = "risus.quis@yahoo.couk",
-                DateOfBirth = DateOnly.Parse("08.01.00"),
-                Address = "276-420 Consectetuer Rd.",
-                Company = "Id Sapien Cras Foundation",
-                Position = "cursus luctus,",
-                Notes = "eget metus eu erat"
-            },
-            new Contact {
-                PhoneNumber = "1-735-645-5126",
-                FirstName = "Janna",
-                LastName = "Keller",
-                Email = "aliquet.diam@protonmail.couk",
-                DateOfBirth = DateOnly.Parse("14.12.97"),
-                Address = "P.O. Box 925, 2799 Duis Road",
-                Company = "Dui Fusce Diam Incorporated",
-                Position = "vestibulum nec,",
-                Notes = "erat, eget tincidunt dui"
-            },
-            new Contact {
-                PhoneNumber = "1-872-651-4661",
-                FirstName = "Heather",
-                LastName = "Glenn",
-                Email = "nec.mauris@icloud.couk",
-                DateOfBirth = DateOnly.Parse("02.04.01"),
-                Address = "440-3341 Etiam Rd.",
-                Company = "Nonummy PC",
-                Position = "hendrerit id,",
-                Notes = "risus. In"
-            },
-            new Contact {
-                PhoneNumber = "1-282-577-1547",
-                FirstName = "Adam",
-                LastName = "Evans",
-                Email = "tincidunt.aliquam@hotmail.net",
-                DateOfBirth = DateOnly.Parse("20.09.98"),
-                Address = "P.O. Box 780, 348 Non, Avenue",
-                Company = "Auctor Quis Tristique Institute",
-                Position = "fringilla ornare",
-                Notes = "nunc sit amet metus."
-            },
-            new Contact {
-                PhoneNumber = "1-628-274-6859",
-                FirstName = "Ferdinand",
-                LastName = "Santos",
-                Email = "aenean@protonmail.net",
-                DateOfBirth = DateOnly.Parse("24.08.98"),
-                Address = "Ap #333-5313 Magna St.",
-                Company = "Nonummy Ac Associates",
-                Position = "Nullam lobortis",
-                Notes = "eu, eleifend nec, malesuada"
-            },
-            new Contact {
-                PhoneNumber = "1-178-826-7293",
-                FirstName = "Celeste",
-                LastName = "Mcclure",
-                Email = "eu@yahoo.ca",
-                DateOfBirth = DateOnly.Parse("25.11.99"),
-                Address = "772-215 Justo Avenue",
-                Company = "In Ornare Institute",
-                Position = "Cum sociis",
-                Notes = "ligula. Aenean gravida nunc sed pede."
-            },
-            new Contact {
-                PhoneNumber = "1-452-881-1614",
-                FirstName = "Neville",
-                LastName = "Shaw",
-                Email = "vitae.aliquet@yahoo.ca",
-                DateOfBirth = DateOnly.Parse("02.06.98"),
-                Address = "447-1342 Proin St.",
-                Company = "Ac Mattis Corporation",
-                Position = "dictum eleifend,",
-                Notes = "Morbi accumsan laoreet"
-            },
-            new Contact {
-                PhoneNumber = "1-168-428-6966",
-                FirstName = "Ali",
-                LastName = "Ryan",
-                Email = "risus.quisque@hotmail.org",
-                DateOfBirth = DateOnly.Parse("25.08.01"),
-                Address = "390-1719 Adipiscing Rd.",
-                Company = "Torquent Per Industries",
-                Position = "libero. Proin",
-                Notes = "libero lacus,"
-            },
-            new Contact {
-                PhoneNumber = "1-232-265-5681",
-                FirstName = "Jasmine",
-                LastName = "Stephens",
-                Email = "odio@google.ca",
-                DateOfBirth = DateOnly.Parse("12.05.00"),
-                Address = "P.O. Box 149, 1162 Primis Rd.",
-                Company = "Eu Lacus Quisque LLC",
-                Position = "lobortis mauris.",
-                Notes = "sapien, gravida"
-            },
-            new Contact {
-                PhoneNumber = "1-871-448-5873",
-                FirstName = "Paki",
-                LastName = "Clark",
-                Email = "eu@yahoo.ca",
-                DateOfBirth = DateOnly.Parse("02.01.00"),
-                Address = "P.O. Box 104, 9977 Placerat. Avenue",
-                Company = "Fusce Fermentum Corporation",
-                Position = "enim mi",
-                Notes = "sem semper erat, in"
-            },
-            new Contact {
-                PhoneNumber = "1-715-261-1185",
-                FirstName = "Honorato",
-                LastName = "Kelly",
-                Email = "adipiscing@icloud.net",
-                DateOfBirth = DateOnly.Parse("20.05.00"),
-                Address = "4496 Cursus Rd.",
-                Company = "Duis Foundation",
-                Position = "odio tristique",
-                Notes = "vestibulum,"
-            },
-            new Contact {
-                PhoneNumber = "1-284-927-3746",
-                FirstName = "Dillon",
-                LastName = "Snow",
-                Email = "mauris.id@yahoo.org",
-                DateOfBirth = DateOnly.Parse("12.10.98"),
-                Address = "182-9893 Etiam St.",
-                Company = "Risus Varius Industries",
-                Position = "sem molestie",
-                Notes = "mi lacinia mattis."
-            },
-            new Contact {
-                PhoneNumber = "1-738-466-6060",
-                FirstName = "Guinevere",
-                LastName = "Head",
-                Email = "sed.dictum@protonmail.couk",
-                DateOfBirth = DateOnly.Parse("30.04.98"),
-                Address = "404-6515 Sem Av.",
-                Company = "Purus Corp.",
-                Position = "Phasellus nulla.",
-                Notes = "Nulla facilisis. Suspendisse"
-            },
-            new Contact {
-                PhoneNumber = "1-627-331-2114",
-                FirstName = "Judah",
-                LastName = "Sparks",
-                Email = "tincidunt.vehicula.risus@protonmail.edu",
-                DateOfBirth = DateOnly.Parse("09.07.98"),
-                Address = "Ap #778-8750 Montes, Road",
-                Company = "Tristique Senectus Et Institute",
-                Position = "mauris sagittis",
-                Notes = "sapien. Aenean massa."
-            },
-            new Contact {
-                PhoneNumber = "1-355-843-6536",
-                FirstName = "Valentine",
-                LastName = "Nunez",
-                Email = "libero.proin.mi@hotmail.ca",
-                DateOfBirth = DateOnly.Parse("17.02.00"),
-                Address = "Ap #396-8770 Imperdiet Street",
-                Company = "Iaculis Lacus LLC",
-                Position = "faucibus. Morbi",
-                Notes = "aliquet libero."
-            },
-            new Contact {
-                PhoneNumber = "1-578-583-2226",
-                FirstName = "Halee",
-                LastName = "Gibbs",
-                Email = "vestibulum.massa@google.org",
-                DateOfBirth = DateOnly.Parse("15.12.00"),
-                Address = "988-9464 Pellentesque, Road",
-                Company = "Non Industries",
-                Position = "lobortis risus.",
-                Notes = "diam luctus lobortis. Class"
-            },
-            new Contact {
-                PhoneNumber = "1-195-536-2027",
-                FirstName = "Amber",
-                LastName = "Stevens",
-                Email = "nunc.interdum@protonmail.org",
-                DateOfBirth = DateOnly.Parse("06.01.98"),
-                Address = "Ap #792-2317 Cum Avenue",
-                Company = "Et Magnis Ltd",
-                Position = "facilisis non,",
-                Notes = "blandit at,"
-            },
-            new Contact {
-                PhoneNumber = "1-542-876-4564",
-                FirstName = "Harlan",
-                LastName = "Dillard",
-                Email = "consectetuer.ipsum.nunc@hotmail.ca",
-                DateOfBirth = DateOnly.Parse("08.10.00"),
-                Address = "132-688 Vestibulum Ave",
-                Company = "Dictum Placerat Augue LLC",
-                Position = "dui nec",
-                Notes = "tellus. Phasellus elit pede,"
-            },
-            new Contact {
-                PhoneNumber = "1-246-865-5413",
-                FirstName = "Dorian",
-                LastName = "Dennis",
-                Email = "et.pede@icloud.org",
-                DateOfBirth = DateOnly.Parse("15.02.99"),
-                Address = "450-9093 Id Av.",
-                Company = "Non Enim Mauris Industries",
-                Position = "eleifend nec,",
-                Notes = "Sed malesuada augue ut"
-            },
-            new Contact {
-                PhoneNumber = "1-545-501-1827",
-                FirstName = "Anika",
-                LastName = "Dunn",
-                Email = "morbi.neque@aol.net",
-                DateOfBirth = DateOnly.Parse("22.07.98"),
-                Address = "P.O. Box 731, 9336 A, Avenue",
-                Company = "Vel Faucibus LLP",
-                Position = "neque. Sed",
-                Notes = "sem, consequat"
-            },
-            new Contact {
-                PhoneNumber = "1-845-944-2338",
-                FirstName = "Isadora",
-                LastName = "Walker",
-                Email = "mauris@aol.net",
-                DateOfBirth = DateOnly.Parse("24.07.01"),
-                Address = "Ap #911-4081 Montes, Rd.",
-                Company = "Et Rutrum Eu Foundation",
-                Position = "elit. Curabitur",
-                Notes = "augue. Sed molestie."
-            },
-            new Contact {
-                PhoneNumber = "1-833-313-2458",
-                FirstName = "Quyn",
-                LastName = "Boyer",
-                Email = "adipiscing@yahoo.net",
-                DateOfBirth = DateOnly.Parse("22.01.01"),
-                Address = "196-8747 Augue St.",
-                Company = "Imperdiet Nec Ltd",
-                Position = "pede. Nunc",
-                Notes = "enim consequat purus. Maecenas libero est,"
-            },
-            new Contact {
-                PhoneNumber = "1-355-767-8113",
-                FirstName = "Xyla",
-                LastName = "Coleman",
-                Email = "vivamus.non.lorem@protonmail.net",
-                DateOfBirth = DateOnly.Parse("24.06.99"),
-                Address = "Ap #157-5983 Lectus. Rd.",
-                Company = "Nunc Industries",
-                Position = "quis, pede.",
-                Notes = "mauris sit amet lorem semper auctor."
-            },
-            new Contact {
-                PhoneNumber = "1-862-543-8238",
-                FirstName = "Igor",
-                LastName = "Hunt",
-                Email = "magna.nec@aol.org",
-                DateOfBirth = DateOnly.Parse("27.06.99"),
-                Address = "601-2236 Sed Rd.",
-                Company = "Egestas Corporation",
-                Position = "eget massa.",
-                Notes = "auctor"
-            },
-            new Contact {
-                PhoneNumber = "1-750-267-2641",
-                FirstName = "Ray",
-                LastName = "Frye",
-                Email = "dolor.fusce.feugiat@icloud.edu",
-                DateOfBirth = DateOnly.Parse("29.10.00"),
-                Address = "510-8028 Egestas. Ave",
-                Company = "Scelerisque Scelerisque Dui Inc.",
-                Position = "pharetra nibh.",
-                Notes = "in faucibus orci luctus"
-            },
-            new Contact {
-                PhoneNumber = "1-867-408-2861",
-                FirstName = "Kelly",
-                LastName = "Mercer",
-                Email = "nonummy.ut@protonmail.net",
-                DateOfBirth = DateOnly.Parse("25.11.98"),
-                Address = "P.O. Box 101, 885 Est Road",
-                Company = "A Company",
-                Position = "torquent per",
-                Notes = "iaculis aliquet diam. Sed diam lorem,"
-            },
-            new Contact {
-                PhoneNumber = "1-711-228-5334",
-                FirstName = "Quentin",
-                LastName = "Hendricks",
-                Email = "maecenas.mi@yahoo.org",
-                DateOfBirth = DateOnly.Parse("13.08.00"),
-                Address = "P.O. Box 876, 4989 Malesuada Av.",
-                Company = "Aliquet Proin LLP",
-                Position = "felis. Nulla",
-                Notes = "conubia nostra, per inceptos"
-            },
-            new Contact {
-                PhoneNumber = "1-459-244-2228",
-                FirstName = "Lucius",
-                LastName = "Talley",
-                Email = "nunc@hotmail.ca",
-                DateOfBirth = DateOnly.Parse("28.01.00"),
-                Address = "343-5443 Tellus Avenue",
-                Company = "Ac Eleifend Vitae Corporation",
-                Position = "a, magna.",
-                Notes = "aliquet. Proin velit. Sed"
-            },
-            new Contact {
-                PhoneNumber = "1-568-148-6233",
-                FirstName = "Alden",
-                LastName = "Faulkner",
-                Email = "quisque.ac.libero@google.com",
-                DateOfBirth = DateOnly.Parse("12.12.00"),
-                Address = "Ap #829-5267 Nisl. Street",
-                Company = "Molestie Corporation",
-                Position = "egestas ligula.",
-                Notes = "eros turpis non"
-            },
-            new Contact {
-                PhoneNumber = "1-173-352-1853",
-                FirstName = "Adena",
-                LastName = "Haney",
-                Email = "lacus@protonmail.edu",
-                DateOfBirth = DateOnly.Parse("08.02.01"),
-                Address = "P.O. Box 895, 1257 Vestibulum Street",
-                Company = "Dui Fusce Diam LLC",
-                Position = "cursus et,",
-                Notes = ""
-            },
-            new Contact {
-                PhoneNumber = "1-866-985-3261",
-                FirstName = "Aline",
-                LastName = "Freeman",
-                Email = "integer.vitae@hotmail.couk",
-                DateOfBirth = DateOnly.Parse("04.01.01"),
-                Address = "910-7697 Interdum. Road",
-                Company = "Mi Pede Company",
-                Position = "at, iaculis",
-                Notes = "eleifend egestas. Sed pharetra, felis eget"
-            },
-            new Contact {
-                PhoneNumber = "1-566-342-3584",
-                FirstName = "Jared",
-                LastName = "Stone",
-                Email = "non.lorem@yahoo.ca",
-                DateOfBirth = DateOnly.Parse("01.07.98"),
-                Address = "P.O. Box 476, 1440 Ullamcorper. Ave",
-                Company = "Mauris Quis Inc.",
-                Position = "enim, condimentum",
-                Notes = "aliquet"
-            },
-            new Contact {
-                PhoneNumber = "1-732-800-0112",
-                FirstName = "Cole",
-                LastName = "Chase",
-                Email = "semper.egestas.urna@icloud.net",
-                DateOfBirth = DateOnly.Parse("25.02.99"),
-                Address = "484-2382 Commodo St.",
-                Company = "Magna A Ltd",
-                Position = "enim. Mauris",
-                Notes = "Suspendisse"
-            },
-            new Contact {
-                PhoneNumber = "1-458-239-2536",
-                FirstName = "Kirestin",
-                LastName = "Noel",
-                Email = "sed.dolor.fusce@icloud.ca",
-                DateOfBirth = DateOnly.Parse("23.08.01"),
-                Address = "2180 Mauris, Street",
-                Company = "Est Mauris Rhoncus Limited",
-                Position = "eget metus",
-                Notes = "consectetuer ipsum nunc id"
-            },
-            new Contact {
-                PhoneNumber = "1-715-744-6422",
-                FirstName = "Lester",
-                LastName = "Castro",
-                Email = "imperdiet.ornare.in@yahoo.ca",
-                DateOfBirth = DateOnly.Parse("24.04.01"),
-                Address = "Ap #712-3194 Ut Road",
-                Company = "Sed Incorporated",
-                Position = "cursus purus.",
-                Notes = "eleifend vitae,"
-            },
-            new Contact {
-                PhoneNumber = "1-328-177-6463",
-                FirstName = "Kelly",
-                LastName = "Douglas",
-                Email = "proin.vel.arcu@aol.couk",
-                DateOfBirth = DateOnly.Parse("20.02.00"),
-                Address = "Ap #310-1994 Lacus. St.",
-                Company = "Et Magnis Corporation",
-                Position = "nulla. Cras",
-                Notes = "Duis elementum, dui quis accumsan convallis,"
             }
         ];
     }

@@ -10,6 +10,11 @@ public class ContactManager : BaseManager<Contact, PutContactDto>, IContactManag
     {
     }
 
+    public async Task<ContactDto[]> Get()
+    {
+        return await _repository.Get(c => true, c => c.ToDto());
+    }
+
     public async Task<ContactDto?> GetById(Guid id)
     {
         return (await _repository.GetById(id))?.ToDto();

@@ -1,4 +1,5 @@
 ﻿using ContactsBook.Core.DataTransferObjects.Commands.Abstractions;
+using ContactsBook.Core.Exceptions;
 using ContactsBook.Core.Models.Abstractions;
 
 namespace ContactsBook.Core.Services.Abstractions;
@@ -40,7 +41,7 @@ public abstract class BaseManager<T, TDto>
     {
         var entry = await _repository.GetById(id);
         if (entry is null)
-            throw new KeyNotFoundException($"The record '{typeof(T).Name}' with id:'{id}' was not found.");
+            throw new EntityNotFoundException($"The record '{typeof(T).Name}' with id:'{id}' was not found.");
         return entry;
     }
 

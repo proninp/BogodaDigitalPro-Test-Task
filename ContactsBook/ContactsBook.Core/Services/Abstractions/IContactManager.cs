@@ -4,6 +4,8 @@ using ContactsBook.Core.DataTransferObjects.ViewModels;
 namespace ContactsBook.Core.Services.Abstractions;
 public interface IContactManager
 {
+    public Task<ContactDto[]> Get();
+
     public Task<ContactDto?> GetById(Guid id);
 
     public Task<ContactDto[]> GetByName(string firstname);

@@ -15,6 +15,15 @@ public class ContactController : ControllerBase
         _contactManager = contactManager;
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _contactManager.Get();
+        if (result == null)
+            return NotFound();
+        return Ok(result);
+    }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> Get([FromRoute] Guid id)
     {

@@ -4,9 +4,9 @@ using ContactsBook.Core.Models;
 namespace ContactsBook.Core.DataTransferObjects.Commands;
 public class PutContactDto : BasePutDto<Contact>
 {
-    public required string PhoneNumber { get; init; }
+    public required string PhoneNumber { get; set; }
 
-    public required string FirstName { get; init; }
+    public required string FirstName { get; set; }
 
     public string? LastName { get; set; }
 
@@ -24,9 +24,9 @@ public class PutContactDto : BasePutDto<Contact>
 
     public override Contact ToModel()
     {
-        return new Contact 
-        { 
-            PhoneNumber = PhoneNumber,
+        return new Contact
+        {
+            PhoneNumber = PhoneNumber, 
             FirstName = FirstName,
             LastName = LastName,
             Email = Email,
