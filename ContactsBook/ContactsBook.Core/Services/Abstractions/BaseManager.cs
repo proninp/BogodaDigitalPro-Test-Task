@@ -1,11 +1,12 @@
-﻿using ContactsBook.Core.DataTransferObjects.Commands.Abstractions;
+﻿using ContactsBook.Core.DataTransferObjects.Abstractions;
 using ContactsBook.Core.Exceptions;
 using ContactsBook.Core.Models.Abstractions;
 
 namespace ContactsBook.Core.Services.Abstractions;
-public abstract class BaseManager<T, TDto>
+public abstract class BaseManager<T, TCreateDto, TUpdateDto>
     where T : BaseModel
-    where TDto : BasePutDto<T>
+    where TUpdateDto : BaseDto, IUpdateDto<T>
+    where TCreateDto : IUpdateDto<T>
 {
     protected readonly IRepository<T> _repository;
     protected readonly IUnitOfWork _unitOfWork;
@@ -16,17 +17,16 @@ public abstract class BaseManager<T, TDto>
         _unitOfWork = unitOfWork;
     }
 
-    public virtual async Task Put(TDto command)
+    public async Task Create(TCreateDto command)
     {
-        if (command.Id is null)
-        {
-            _repository.Add(command.ToModel());
-        }
-        else
-        {
-            var entity = await GetEntityById(command.Id.Value);
-            Update(entity, command);
-        }
+        _repository.Add(command.ToModel());
+        await _unitOfWork.Commit();
+    }
+
+    public virtual async Task Update(TUpdateDto command)
+    {
+        var entity = await GetEntityById(command.Id);
+        Update(entity, command);
         await _unitOfWork.Commit();
     }
 
@@ -45,5 +45,5 @@ public abstract class BaseManager<T, TDto>
         return entry;
     }
 
-    protected abstract void Update(T model, TDto command);
+    protected abstract void Update(T model, TUpdateDto command);
 }

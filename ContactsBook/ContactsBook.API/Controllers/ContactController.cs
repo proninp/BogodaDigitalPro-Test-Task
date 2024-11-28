@@ -52,7 +52,7 @@ public class ContactController : ControllerBase
     }
 
     [HttpPut]
-    public async Task PutContact([FromBody] PutContactDto body)
+    public async Task PutContact([FromBody] UpdateContactDto body)
     {
         await _contactManager.Put(body);
     }

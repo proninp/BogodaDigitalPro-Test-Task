@@ -4,15 +4,17 @@ using ContactsBook.Core.DataTransferObjects.ViewModels;
 namespace ContactsBook.Core.Services.Abstractions;
 public interface IContactManager
 {
-    public Task<ContactDto[]> Get();
+    public ContactDto[] Get();
 
     public Task<ContactDto?> GetById(Guid id);
 
-    public Task<ContactDto[]> GetByName(string firstname);
+    public ContactDto[] GetByName(string firstname);
 
-    public Task<ContactDto[]> GetByPhone(string phone);
+    public ContactDto[] GetByPhone(string phone);
 
-    public Task Put(PutContactDto command);
+    public Task Create(UpdateContactDto command);
+
+    public Task Update(UpdateContactDto command);
 
     public Task Delete(Guid id);
 }

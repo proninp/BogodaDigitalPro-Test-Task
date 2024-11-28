@@ -1,4 +1,5 @@
-﻿using ContactsBook.Core.Models.Abstractions;
+﻿using System.Linq.Expressions;
+using ContactsBook.Core.Models.Abstractions;
 using ContactsBook.Core.Services.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,19 +21,20 @@ public class Repository<T> : IRepository<T> where T : BaseModel
             .FirstOrDefaultAsync(a => a.Id == id);
     }
 
-    public async Task<TResult[]> Get<TResult>(Func<T, bool> predicate, Func<T, TResult> selector)
+    public TResult[] Get<TResult>(Expression<Func<T, bool>> predicate, Func<T, TResult> selector)
     {
-        return await _context
+        return _context
             .Set<T>()
-            .Where(x => predicate(x))
+            .Where(predicate)
             .AsNoTracking()
             .Select(x => selector(x))
-            .ToArrayAsync();
+            .ToArray();
     }
 
-    public void Add(T item)
+    public Guid Add(T item)
     {
-        _context.Add(item);
+        var contact = _context.Add(item);
+        return contact.Entity.Id;
     }
 
     public void Update(T item)

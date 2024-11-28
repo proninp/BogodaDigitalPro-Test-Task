@@ -1,8 +1,8 @@
-﻿using ContactsBook.Core.DataTransferObjects.Commands.Abstractions;
+﻿using ContactsBook.Core.DataTransferObjects.Abstractions;
 using ContactsBook.Core.Models;
 
 namespace ContactsBook.Core.DataTransferObjects.Commands;
-public class PutContactDto : BasePutDto<Contact>
+public class CreateContactDto : IUpdateDto<Contact>
 {
     public required string PhoneNumber { get; set; }
 
@@ -22,11 +22,11 @@ public class PutContactDto : BasePutDto<Contact>
 
     public string? Notes { get; set; }
 
-    public override Contact ToModel()
+    public Contact ToModel()
     {
         return new Contact
         {
-            PhoneNumber = PhoneNumber, 
+            PhoneNumber = PhoneNumber,
             FirstName = FirstName,
             LastName = LastName,
             Email = Email,

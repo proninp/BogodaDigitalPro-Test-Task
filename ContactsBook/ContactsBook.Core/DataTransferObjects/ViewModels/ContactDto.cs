@@ -1,10 +1,9 @@
-﻿using ContactsBook.Core.Models;
+﻿using ContactsBook.Core.DataTransferObjects.Abstractions;
+using ContactsBook.Core.Models;
 
 namespace ContactsBook.Core.DataTransferObjects.ViewModels;
-public class ContactDto
+public class ContactDto : BaseDto
 {
-    public Guid Id { get; init; }
-
     public required string PhoneNumber { get; init; }
 
     public required string FirstName { get; init; }

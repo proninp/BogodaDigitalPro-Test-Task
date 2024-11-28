@@ -4,15 +4,15 @@ using ContactsBook.Core.Models;
 using ContactsBook.Core.Services.Abstractions;
 
 namespace ContactsBook.Core.Services;
-public class ContactManager : BaseManager<Contact, PutContactDto>, IContactManager
+public class ContactManager : BaseManager<Contact, CreateContactDto, UpdateContactDto>, IContactManager
 {
     public ContactManager(IRepository<Contact> repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
     {
     }
 
-    public async Task<ContactDto[]> Get()
+    public ContactDto[] Get()
     {
-        return await _repository.Get(c => true, c => c.ToDto());
+        return _repository.Get(c => true, c => c.ToDto());
     }
 
     public async Task<ContactDto?> GetById(Guid id)
@@ -20,17 +20,17 @@ public class ContactManager : BaseManager<Contact, PutContactDto>, IContactManag
         return (await _repository.GetById(id))?.ToDto();
     }
 
-    public async Task<ContactDto[]> GetByName(string firstname)
+    public ContactDto[] GetByName(string firstname)
     {
-        return await _repository.Get(c => c.FirstName.Contains(firstname), c => c.ToDto());
+        return _repository.Get(c => c.FirstName.Contains(firstname), c => c.ToDto());
     }
 
-    public async Task<ContactDto[]> GetByPhone(string phone)
+    public ContactDto[] GetByPhone(string phone)
     {
-        return await _repository.Get(c => c.PhoneNumber.Contains(phone), c => c.ToDto());
+        return _repository.Get(c => c.PhoneNumber.Contains(phone), c => c.ToDto());
     }
 
-    protected override void Update(Contact model, PutContactDto command)
+    protected override void Update(Contact model, UpdateContactDto command)
     {
         model.PhoneNumber = command.PhoneNumber;
         model.FirstName = command.FirstName;
