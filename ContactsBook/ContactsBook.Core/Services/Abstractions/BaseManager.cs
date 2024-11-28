@@ -26,7 +26,7 @@ public abstract class BaseManager<T, TCreateDto, TUpdateDto>
     public virtual async Task Update(TUpdateDto command)
     {
         var entity = await GetEntityById(command.Id);
-        Update(entity, command);
+        UpdateModel(entity, command);
         await _unitOfWork.Commit();
     }
 
@@ -45,5 +45,5 @@ public abstract class BaseManager<T, TCreateDto, TUpdateDto>
         return entry;
     }
 
-    protected abstract void Update(T model, TUpdateDto command);
+    protected abstract void UpdateModel(T model, TUpdateDto command);
 }

@@ -30,7 +30,7 @@ public class ContactManager : BaseManager<Contact, CreateContactDto, UpdateConta
         return _repository.Get(c => c.PhoneNumber.Contains(phone), c => c.ToDto());
     }
 
-    protected override void Update(Contact model, UpdateContactDto command)
+    protected override void UpdateModel(Contact model, UpdateContactDto command)
     {
         model.PhoneNumber = command.PhoneNumber;
         model.FirstName = command.FirstName;

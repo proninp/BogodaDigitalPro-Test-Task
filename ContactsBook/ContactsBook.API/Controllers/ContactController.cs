@@ -1,4 +1,5 @@
 ﻿using ContactsBook.Core.DataTransferObjects.Commands;
+using ContactsBook.Core.DataTransferObjects.ViewModels;
 using ContactsBook.Core.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,10 +17,10 @@ public class ContactController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAll()
+    public ActionResult<ContactDto[]> GetAll()
     {
-        var result = await _contactManager.Get();
-        if (result == null)
+        var result = _contactManager.Get();
+        if (result is null || result.Length == 0)
             return NotFound();
         return Ok(result);
     }
@@ -34,18 +35,18 @@ public class ContactController : ControllerBase
     }
 
     [HttpGet("firstname/{firstname}")]
-    public async Task<IActionResult> GetByFirstname(string firstname)
+    public ActionResult<ContactDto[]> GetByFirstname(string firstname)
     {
-        var results = await _contactManager.GetByName(firstname);
+        var results = _contactManager.GetByName(firstname);
         if (results == null || results.Length == 0)
             return NotFound();
         return Ok(results);
     }
 
     [HttpGet("phone/{phone}")]
-    public async Task<IActionResult> GetByPhone(string phone)
+    public ActionResult<ContactDto[]> GetByPhone(string phone)
     {
-        var results = await _contactManager.GetByPhone(phone);
+        var results = _contactManager.GetByPhone(phone);
         if (results == null || results.Length == 0)
             return NotFound();
         return Ok(results);
@@ -54,7 +55,13 @@ public class ContactController : ControllerBase
     [HttpPut]
     public async Task PutContact([FromBody] UpdateContactDto body)
     {
-        await _contactManager.Put(body);
+        await _contactManager.Update(body);
+    }
+
+    [HttpPost]
+    public async Task PostContact([FromBody] CreateContactDto body)
+    {
+        await _contactManager.Create(body);
     }
 
     [HttpDelete("{id}")]

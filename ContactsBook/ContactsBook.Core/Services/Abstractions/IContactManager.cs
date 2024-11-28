@@ -12,7 +12,7 @@ public interface IContactManager
 
     public ContactDto[] GetByPhone(string phone);
 
-    public Task Create(UpdateContactDto command);
+    public Task Create(CreateContactDto command);
 
     public Task Update(UpdateContactDto command);
 
