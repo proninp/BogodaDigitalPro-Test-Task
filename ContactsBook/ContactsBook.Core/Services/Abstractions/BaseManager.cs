@@ -3,8 +3,9 @@ using ContactsBook.Core.Exceptions;
 using ContactsBook.Core.Models.Abstractions;
 
 namespace ContactsBook.Core.Services.Abstractions;
-public abstract class BaseManager<T, TCreateDto, TUpdateDto>
+public abstract class BaseManager<T, TViewDto, TCreateDto, TUpdateDto>
     where T : BaseModel
+    where TViewDto : BaseDto
     where TUpdateDto : BaseDto, IUpdateDto<T>
     where TCreateDto : IUpdateDto<T>
 {
@@ -17,16 +18,18 @@ public abstract class BaseManager<T, TCreateDto, TUpdateDto>
         _unitOfWork = unitOfWork;
     }
 
-    public async Task Create(TCreateDto command)
+    public async Task<TViewDto> Create(TCreateDto command)
     {
-        _repository.Add(command.ToModel());
+        var model = _repository.Add(command.ToModel());
         await _unitOfWork.Commit();
+        return GetViewNodel(model);
     }
 
     public virtual async Task Update(TUpdateDto command)
     {
         var entity = await GetEntityById(command.Id);
         UpdateModel(entity, command);
+        _repository.Update(entity);
         await _unitOfWork.Commit();
     }
 
@@ -46,4 +49,6 @@ public abstract class BaseManager<T, TCreateDto, TUpdateDto>
     }
 
     protected abstract void UpdateModel(T model, TUpdateDto command);
+
+    protected abstract TViewDto GetViewNodel(T model);
 }

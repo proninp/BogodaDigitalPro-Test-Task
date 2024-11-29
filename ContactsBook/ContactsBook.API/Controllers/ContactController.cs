@@ -26,7 +26,7 @@ public class ContactController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> Get([FromRoute] Guid id)
+    public async Task<ActionResult<ContactDto>> Get([FromRoute] Guid id)
     {
         var result = await _contactManager.GetById(id);
         if (result == null)
@@ -53,15 +53,16 @@ public class ContactController : ControllerBase
     }
 
     [HttpPut]
-    public async Task PutContact([FromBody] UpdateContactDto body)
+    public async Task<IActionResult> PutContact([FromBody] UpdateContactDto body)
     {
         await _contactManager.Update(body);
+        return Ok();
     }
 
     [HttpPost]
-    public async Task PostContact([FromBody] CreateContactDto body)
+    public async Task<ActionResult<ContactDto>> PostContact([FromBody] CreateContactDto body)
     {
-        await _contactManager.Create(body);
+        return await _contactManager.Create(body);
     }
 
     [HttpDelete("{id}")]

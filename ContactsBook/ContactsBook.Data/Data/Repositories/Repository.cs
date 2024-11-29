@@ -31,10 +31,10 @@ public class Repository<T> : IRepository<T> where T : BaseModel
             .ToArray();
     }
 
-    public Guid Add(T item)
+    public T Add(T item)
     {
         var contact = _context.Add(item);
-        return contact.Entity.Id;
+        return contact.Entity;
     }
 
     public void Update(T item)

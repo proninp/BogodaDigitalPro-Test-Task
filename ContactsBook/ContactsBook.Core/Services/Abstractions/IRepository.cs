@@ -8,7 +8,7 @@ public interface IRepository<T> where T : BaseModel
 
     TResult[] Get<TResult>(Expression<Func<T, bool>> predicate, Func<T, TResult> selector);
 
-    Guid Add(T item);
+    T Add(T item);
 
     void Update(T item);
 
